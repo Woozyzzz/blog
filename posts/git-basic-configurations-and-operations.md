@@ -137,7 +137,7 @@ git tag -a v1.0 -m "新增首页"
 git tag -a v1.0 34dfghi
 git tag -d v1.0
 git show
-git push origin v1.0
+git push origin tag v1.0
 git push origin -d tag v1.0
 ```
 
@@ -215,13 +215,13 @@ ssh -T git@github.com
 1. 生成一个公钥用于公司内部开发
 
 ```bash
-ssh-keygen -t rsa -C 'xxxxx@company.com' -f ~/.ssh/gitee_id_rsa
+ssh-keygen -t rsa -b 4096 -C 'xxxxx@company.com' -f ~/.ssh/gitee_id_rsa
 ```
 
 2. 生成一个公钥用于个人开发
 
 ```bash
-ssh-keygen -t rsa -C 'xxxxx@foxmail.com' -f ~/.ssh/github_id_rsa
+ssh-keygen -t rsa -b 4096 -C 'xxxxx@foxmail.com' -f ~/.ssh/github_id_rsa
 ```
 
 3. 在 ~/.ssh 目录下新建一个 config 文件，添加如下内容（其中 Host 和 HostName 填写 Git 服务器的域名，IdentityFile 指定私钥的路径）
@@ -247,7 +247,7 @@ ssh -T git@gitee.com
 ssh -T git@github.com
 ```
 
-## 参考文章
+## 4 参考文章
 
 - [Git - Git Configuration (git-scm.com)](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
 - [How can I fix git commit error "Waiting for your editor to close the file..." with VS Code? - Stack Overflow](https://stackoverflow.com/questions/52195877/how-can-i-fix-git-commit-error-waiting-for-your-editor-to-close-the-file-wi)
