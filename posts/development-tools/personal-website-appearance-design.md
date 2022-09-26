@@ -41,7 +41,7 @@
 
 ## 4 参考文章
 
-1. [设计网站外观 - 学习 Web 开发 | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like)
+1. [设计网站外观 - 学习 Web 开发 - MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like)
 2. [3D 龙事件 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-hans/3D%E9%BE%8D%E4%BA%8B%E4%BB%B6)
 3. [Color Palettes for Designers and Artists - Color Hunt](https://colorhunt.co/)
 4. [Eva Design System: Deep learning color generator](https://colors.eva.design/)
