@@ -16,7 +16,7 @@
 ```css
 /* CSS */
 table {
-  height: 400px;
+  height: 200px;
   background: #7a3e65;
 }
 
@@ -25,7 +25,12 @@ td {
 }
 ```
 
-[https://codepen.io/Woozyzzz/pen/LYJjXXP](https://codepen.io/Woozyzzz/pen/LYJjXXP)
+<iframe id="example-1"
+    title="example-1"
+    width="240"
+    height="320"
+    src="https://codepen.io/Woozyzzz/pen/LYJjXXP">
+</iframe>
 
 ## 2 用 div 模拟 table 元素
 

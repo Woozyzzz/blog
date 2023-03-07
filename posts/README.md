@@ -8,3 +8,7 @@
 ## Programming
 
 - [当面试官提到 MVC 时，你该想些什么？](https://woozyzzz.github.io/blog/posts/programming/what-should-you-think-about-when-an-interviewer-mentions-mvc)
+
+## CSS
+
+- [用 CSS 实现 7 种垂直居中的方法](https://woozyzzz.github.io/blog/posts/css/7-ways-to-implement-vertical-centering-with-css)
