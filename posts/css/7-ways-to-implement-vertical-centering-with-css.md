@@ -16,7 +16,7 @@
 ```css
 /* CSS */
 table {
-  height: 200px;
+  height: 400px;
   background: #7a3e65;
 }
 
@@ -25,12 +25,7 @@ td {
 }
 ```
 
-<iframe id="example-1"
-    title="example-1"
-    width="240"
-    height="320"
-    src="https://codepen.io/Woozyzzz/pen/LYJjXXP">
-</iframe>
+[效果预览](https://codepen.io/Woozyzzz/pen/LYJjXXP)
 
 ## 2 用 div 模拟 table 元素
 
@@ -46,9 +41,10 @@ td {
 ```css
 /* CSS */
 .table {
+  padding: 8px;
   display: table;
   height: 400px;
-  border: 1px solid #000;
+  background: #7a3e65;
 }
 
 .tr {
@@ -58,8 +54,11 @@ td {
 .td {
   display: table-cell;
   vertical-align: middle;
+  background: #a84448;
 }
 ```
+
+[效果预览](https://codepen.io/Woozyzzz/pen/KKxvEgq)
 
 ## 3 100% 高度的行内块级伪元素
 
@@ -74,7 +73,7 @@ td {
 /* CSS */
 .parent {
   height: 400px;
-  border: 1px solid green;
+  background: #7a3e65;
 }
 
 .parent::before,
@@ -88,9 +87,11 @@ td {
 .child {
   display: inline-block;
   vertical-align: middle;
-  border: 1px solid red;
+  background: #a84448;
 }
 ```
+
+[效果预览](https://codepen.io/Woozyzzz/pen/GRXveaN)
 
 ## 4 负二分之一子元素高度的顶部外边距与绝对定位
 
@@ -106,7 +107,7 @@ td {
 .parent {
   position: relative;
   height: 400px;
-  border: 1px solid green;
+  background: #7a3e65;
 }
 
 .child {
@@ -115,9 +116,11 @@ td {
   top: 50%;
   margin-top: calc(var(--height) / -2);
   height: var(--height);
-  border: 1px solid red;
+  background: #a84448;
 }
 ```
+
+[效果预览](https://codepen.io/Woozyzzz/pen/VwGzNdb)
 
 ## 5 自动顶部底部外边距与绝对定位
 
@@ -133,7 +136,7 @@ td {
 .parent {
   position: relative;
   height: 400px;
-  border: 1px solid green;
+  background: #7a3e65;
 }
 
 .child {
@@ -143,9 +146,11 @@ td {
   margin-top: auto;
   margin-bottom: auto;
   height: 100px;
-  border: 1px solid red;
+  background: #a84448;
 }
 ```
+
+[效果预览](https://codepen.io/Woozyzzz/pen/oNPeOQW)
 
 ## 6 垂直平移与绝对定位
 
@@ -161,16 +166,18 @@ td {
 .parent {
   position: relative;
   height: 400px;
-  border: 1px solid green;
+  background: #7a3e65;
 }
 
 .child {
   position: absolute;
   top: 50%;
-  border: 1px solid red;
+  background: #a84448;
   transform: translateY(-50%);
 }
 ```
+
+[效果预览](https://codepen.io/Woozyzzz/pen/yLxodyX)
 
 ## 7 flex 布局
 
@@ -187,10 +194,24 @@ td {
   display: flex;
   align-items: center;
   height: 400px;
-  border: 1px solid green;
+  background: #7a3e65;
 }
 
 .child {
-  border: 1px solid red;
+  background: #a84448;
 }
 ```
+
+[效果预览](https://codepen.io/Woozyzzz/pen/gOdxNaO)
+
+## 8 参考文章
+
+1. [table - HTML（超文本标记语言） | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/table)
+2. [tr - HTML（超文本标记语言） | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/tr)
+3. [td：表格数据单元格元素 - HTML（超文本标记语言） | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/td)
+4. [display - CSS：层叠样式表 | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/CSS/display)
+5. [::before (:before) - CSS：层叠样式表 | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/CSS/::before)
+6. [::after (:after) - CSS：层叠样式表 | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/CSS/::after)
+7. [position - CSS：层叠样式表 | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/CSS/position)
+8. [translateY() - CSS：层叠样式表 | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform-function/translateY)
+9. [align-items - CSS：层叠样式表 | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/CSS/align-items)
