@@ -12,3 +12,4 @@
 ## CSS
 
 - [用 CSS 实现 7 种垂直居中的方法](https://woozyzzz.github.io/blog/posts/css/7-ways-to-implement-vertical-centering-with-css)
+- [计算 CSS 选择器的优先级](https://woozyzzz.github.io/blog/posts/css/calculating-the-specificity-of-css-selectors)
