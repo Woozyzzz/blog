@@ -218,3 +218,39 @@ table {
 1. ID 选择器 > 类选择器、属性选择器、伪类 > 类型（元素）选择器、伪元素
 1. 通配选择符、关系选择符和匹配伪类、关系伪类和否定伪类对优先级没有影响
 1. 匹配伪类、关系伪类和否定伪类括号内部声明的选择器会影响优先级
+
+## 4 如何清除浮动？
+
+**实践题** **记忆题**
+
+- 博客总结。
+- 方法 1，给父元素加上 `overflow:hidden`
+- 方法 2，给父元素加上 `.clearfix`
+
+```css
+/* CSS */
+.clearfix::after {
+  display: block;
+  /* 或者 */
+  /* display: table; */
+  clear: both;
+  content: "";
+}
+
+/* 兼容 IE */
+.clearfix {
+  zoom: 1;
+}
+```
+
+## 5 两种盒模型（box-sizing）的区别？
+
+**区分题**
+
+- 先说一，再说二，接着说相同点，最后说不同点，最好有博客总结。
+
+1. 第一种盒模型是内容盒模型（content-box），即 width 指定的是 content 区域的宽度，而不是实际宽度，`实际宽度 = width + padding + border`
+2. 第二种盒模型是边框盒模型（border-box），即 width 指定的是左右边框外侧之间的距离，`实际宽度 = width`
+3. 相同点：都是用来指定宽度的
+4. 不同点：border-box 更直观更好用
+5. border-box 最早由 IE 提出
