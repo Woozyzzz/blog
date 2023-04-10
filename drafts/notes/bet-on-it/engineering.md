@@ -83,7 +83,7 @@
       1. 该 server 会把 vue.js 的代码递归地打包进 main.js
 2. 生产环境区别
    1. vite 使用 rollup + esbuild 来打包 JS 代码
-   2. webpack 使用 babel 来打包 JS 代码，比 esbuild 非常多
+   2. webpack 使用 babel 来打包 JS 代码，比 esbuild 慢非常多
       1. webpack 使用 esbuild 的配置很麻烦
 3. 文件处理时机
    1. vite 只会在你请求某个文件的时候处理该文件
