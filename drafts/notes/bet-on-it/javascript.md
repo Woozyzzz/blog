@@ -37,7 +37,7 @@ x.__proto__ === Object.prototype;
 #### 2.1.2 什么是原型链？
 
 1. 接下来，我来说原型链，还是举例说明吧。
-2. 假设我们声明一个数组对象 `a = {}` ，这个 `a` 会有一个隐藏属性 `__proto__` ，这个属性会全等于 `Array.prototype` ，即
+2. 假设我们声明一个数组对象 `a = []` ，这个 `a` 会有一个隐藏属性 `__proto__` ，这个属性会全等于 `Array.prototype` ，即
 
 ```javascript
 // JavaScript
