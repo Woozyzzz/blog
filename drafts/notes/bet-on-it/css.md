@@ -212,7 +212,7 @@ table {
 - 博客总结。[计算 CSS 选择器的优先级](https://woozyzzz.github.io/blog/posts/css/calculating-the-specificity-of-css-selectors)
 
 1. 相同优先级，后面的样式声明覆盖前面的
-2. . 选择器越具体，优先级越高
+2. 选择器越具体，优先级越高
 3. `!important` 规则会覆盖任何其他声明，包括内联样式，尽量避免使用
 4. 内联样式会覆盖外部样式表的样式
 5. ID 选择器 > 类选择器、属性选择器、伪类 > 类型（元素）选择器、伪元素
