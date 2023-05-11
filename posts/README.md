@@ -13,3 +13,7 @@
 
 - [用 CSS 实现 7 种垂直居中的方法](https://woozyzzz.github.io/blog/posts/css/7-ways-to-implement-vertical-centering-with-css)
 - [计算 CSS 选择器的优先级](https://woozyzzz.github.io/blog/posts/css/calculating-the-specificity-of-css-selectors)
+
+## HTML
+
+- [HTML 语义化标签：让 Web 更有意义](https://woozyzzz.github.io/blog/posts/html/html-semantic-tags-making-the-web-more-meaningful)
